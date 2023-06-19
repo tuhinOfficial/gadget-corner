@@ -1,5 +1,8 @@
 1. Folder Structure Complete
 2. TopBar Designed
+3. Menubar designed
+4. Sidebar designed
+5. Home Section Banner Design
 
 
 

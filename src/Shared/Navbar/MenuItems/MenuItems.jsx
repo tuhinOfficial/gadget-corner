@@ -29,7 +29,7 @@ const MenuItems = () => {
   };
   return (
     <div>
-      <Card className=" h-[calc(100vh-2rem)] w-full max-w-[100%] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none">
+      <Card className=" h-[calc(100vh-2rem)] w-full max-w-[100%] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none z-60">
         <List>
           <Accordion
             open={open === 1}

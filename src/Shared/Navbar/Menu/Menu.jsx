@@ -17,7 +17,9 @@ const Menu = () => {
   return (
     <div>
       <React.Fragment>
-        <Button variant="outlined" onClick={openDrawer}><AiOutlineMenu size={20} color="white"></AiOutlineMenu></Button>
+        <Button variant="outlined" onClick={openDrawer}>
+          <AiOutlineMenu size={20} color="white"></AiOutlineMenu>
+        </Button>
         <Drawer open={open} onClose={closeDrawer} className=" w-[258px]">
           <div className="mb-6 flex items-center justify-between">
             <Typography variant="h5" color="blue-gray" className="ml-5">
