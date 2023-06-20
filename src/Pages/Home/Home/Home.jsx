@@ -1,11 +1,14 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Popular from '../popular/popular/Popular';
+import Offered from '../Offered/Offered';
 
 const Home = () => {
     return (
         <section>
             <Banner></Banner>
-            <h2>This Is Home Page</h2>
+            <Popular></Popular>
+            <Offered></Offered>
         </section>
     );
 };
